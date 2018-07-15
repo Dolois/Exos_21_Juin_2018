@@ -1,0 +1,26 @@
+.conteneur {
+	display: flex;
+}
+
+.red {
+  background-color: red;
+  flex-grow: 1;
+}
+
+.green {
+  background-color: green;
+  flex-grow: 1;
+  flex-direction: column;
+}
+
+.blue {
+	background-color: blue;
+  width: 40vw;
+}
+
+.conteneur > div {
+  font-size: 5vw;
+  padding: 5em;
+  color: white;
+  flex: 1;
+}
